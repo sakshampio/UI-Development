@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap_cheatsheet/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-header">Hello, world! <small>secondary text</small></h1>
+      <p class="lead">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+        voluptate molestiae quos labore blanditiis, autem dolores. Vero incidunt
+        molestiae et?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatem
+        ipsam omnis culpa odit totam cupiditate a fugiat voluptas fuga
+        voluptates,
+        <mark>optio eligendi consequatur accusantium ducimus</mark> at
+        recusandae ad impedit! Eveniet dolorum ipsam sint molestias aliquid
+        labore quidem <del>consequatur sed, nulla harum,</del> quasi mollitia
+        laudantium! Minima accusantium debitis quibusdam pariatur vel rerum
+        magni, reiciendis facilis eius saepe nisi sapiente in veritatis quasi
+        architecto velit nobis nam doloribus veniam illo expedita corrupti iusto
+        ratione cum? Pariatur ipsam eum soluta, voluptatem deleniti possimus
+        quam temporibus non unde animi corporis nulla dicta fuga, a aliquam
+        doloribus delectus et cupiditate odio molestiae. Et, placeat?
+      </p>
+
+      <hr />
+
+      <p class="text-left text-lowercase">Text align Left</p>
+      <p class="text-center text-uppercase">Text align center</p>
+      <p class="text-right text-capatalized">Text align right</p>
+      <p class="justify-content">justify content</p>
+      <p class="text-nowrap">No wrap</p>
+      <div class="pull-right">to float right</div>
+      <div class="pull-left">to float leftt</div>
+      <div class="clearfix"></div>
+
+      <hr />
+
+      <blockquote class="blockquote-reverse">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          nulla, accusamus saepe aperiam voluptates odit quos facere dolorem
+          repellendus minus recusandae et commodi cupiditate modi eveniet earum,
+          soluta explicabo architecto?
+        </p>
+        <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+      </blockquote>
+      <hr />
+      <ul class="list-unstyled">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+      </ul>
+
+      <ul class="list-inline">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+      </ul>
+      <div class="container">
+        <button class="btn btn-default">button</button>
+        <a href="#" class="btn btn-default" role="button">link</a>
+        <input type="submit" class="btn btn-default" value="submit" />
+      </div>
+      <hr />
+      <!-- for creating a form -->
+      <div class="container">
+        <form action="">
+          <div class="form-group">
+            <label> Name</label>
+            <input type="text" class="form-control" placeholder="Add Name" />
+          </div>
+          <div class="form-group">
+            <label> Email</label>
+            <input type="email" class="form-control" placeholder="Add email" />
+          </div>
+          <div class="form-group">
+            <label>Gender</label>
+            <select class="form-control">
+              <option value="male">male</option>
+              <option value="female">female</option>
+              <option value="other">other</option>
+            </select>
+          </div>
+        </form>
+      </div>
+
+      <!-- grids -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-xs-8">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, impedit qui excepturi ex enim eveniet nemo? Harum
+              doloribus eaque nesciunt!
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-8">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, impedit qui excepturi ex enim eveniet nemo? Harum
+              doloribus eaque nesciunt!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+          <div class="col-md-1">
+            <p>box</p>
+          </div>
+        </div>
+      </div>
+      <!-- panel -->
+      <div class="container">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="pnel-title">panel title</h3>
+          </div>
+          <div class="panel-body">panel content</div>
+          <div class="panel-footer">panel footer</div>
+        </div>
+      </div>
+      <!-- wells rhis will add padding with background -->
+      <div class="well">hello world</div>
+      <div class="well well-sm">hello world</div>
+      <div class="well well-lg">hello world</div>
+      <div class="alert alert-success" role="alert">a success alert</div>
+      <div class="alert alert-info" role="alert">a info alert</div>
+      <div class="alert alert-warning" role="alert">a warning alert</div>
+      <div class="alert alert-danger" role="alert">a danger alert</div>
+      <!-- progress bar -->
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-success progress-bar-striped active"
+          style="width: 50%"
+        >
+          50%
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
