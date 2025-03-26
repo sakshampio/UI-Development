@@ -1,5 +1,5 @@
 // rest 
-function addNumbers(a,b,c,...other){
+function addNumbers(a,b,c,...other){ // here ... is used as rest parameter 
     console.log(other);// here other act as an array
     
  return a+b+c;
@@ -35,7 +35,7 @@ console.log(newStudents);
 // merging arrays wih spread 
 const array1 = [1, 2, 3];
 const array2 = [4, 5, 6];
-const mergedArray = [...array1, ...array2];
+const mergedArray = [...array1, ...array2]; // here it is used as spread operator
 
 console.log(mergedArray); 
 
@@ -47,7 +47,7 @@ fruits.forEach(function(fruit, index) {
   console.log(`${index}: ${fruit}`);
 });
 
-// for each using arrow function 
+// for each using arrow fun ction 
 const numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach(number => console.log(number));
