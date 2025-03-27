@@ -67,4 +67,5 @@ console.log(maxNum);
   const first = [1,2,4];
   const second = [5,6,7];
   const combined = first.concat(second);
+  
 
